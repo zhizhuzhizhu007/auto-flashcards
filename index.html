@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Flashcards - Fast Multi-Page Flashcard Matrix Layout for Canva</title>
+  <meta name="description" content="Auto Flashcards is an independent Canva app that transforms vocabulary lists into clean, printable multi-page flashcard matrices with cutting guides and automatic pagination.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span>Auto Flashcards</span>
+        <span class="brand-badge">Canva App</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Fast, Automatic Flashcard Matrix Layout for Canva</h1>
+        <p class="lead">
+          Auto Flashcards transforms vocabulary lists, language cards, and study terms into clean, printable grid matrices with automatic pagination and hairline cutting guides—directly inside Canva.
+        </p>
+        <div class="hero-actions">
+          <a href="support.html" class="btn btn-primary">Get Support</a>
+          <a href="https://github.com/zhizhuzhizhu007/auto-flashcards" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub Repository</a>
+        </div>
+      </section>
+
+      <!-- Features Grid -->
+      <section class="features-section" aria-labelledby="features-heading">
+        <h2 id="features-heading" style="text-align: center; margin-bottom: 8px;">Core Capabilities</h2>
+        <p style="text-align: center; max-width: 620px; margin: 0 auto 24px auto;">
+          Designed specifically for teachers, language learners, and designers seeking fast, automated flashcard creation without tedious manual card-by-card positioning.
+        </p>
+
+        <div class="features-grid">
+          <!-- Feature 1: Multi-Page Grid Matrix -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">&#8862;</div>
+            <h3>Smart Auto-Pagination &amp; Grid Matrix</h3>
+            <p>
+              Instantly arrange study items into high-density grid layouts across multiple pages with zero manual copying or alignment needed.
+            </p>
+            <ul class="card-list">
+              <li><strong>Standard Grid Presets:</strong> Choose between 2 &times; 3 (6 cards/page), 3 &times; 3 (9 cards/page), or 4 &times; 4 (16 cards/page).</li>
+              <li><strong>Multi-Delimiter Parsing:</strong> Automatically splits vocabulary by line breaks, English commas, Chinese commas, semicolons, and enumeration marks.</li>
+              <li><strong>Phrase Preservation:</strong> Intelligently preserves compound terms (e.g. "ice cream", "New York City") without accidental splitting.</li>
+              <li><strong>Dynamic Capacity Counting:</strong> Live badge updates showing recognized card counts and estimated page count before generation.</li>
+              <li><strong>120-Item Stability Guard:</strong> Hardened generation threshold preventing browser memory exhaustion and canvas transaction lag.</li>
+            </ul>
+          </article>
+
+          <!-- Feature 2: Print Crop Guides -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">&#9986;</div>
+            <h3>Print Hairline Cutting Guides</h3>
+            <p>
+              Accurate 0.5pt guidelines assist with manual trimming using standard scissors or craft paper cutters after physical printing.
+            </p>
+            <ul class="card-list">
+              <li><strong>Standard 5mm Channels:</strong> Fixed 14.17pt card spacing providing a clean, consistent cutting channel.</li>
+              <li><strong>Clean Internal Dividers:</strong> Generates minimal internal horizontal and vertical divider lines without outer border clutter.</li>
+              <li><strong>Safe Padding Margin:</strong> Built-in 10&ndash;12pt padding ensures text never touches cutting edges or risks accidental clipping.</li>
+              <li><strong>Long-Word Auto-Wrapping:</strong> Enforces minimum 12pt font floor with multi-line wrapping to prevent miniaturized unreadable text.</li>
+              <li><strong>One-Click Toggle:</strong> Easily turn crop guides on or off according to your export or design requirements.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Workflow Section -->
+      <section class="section-block" aria-labelledby="workflow-heading">
+        <h2 id="workflow-heading">How Auto Flashcards Works</h2>
+        <p>Auto Flashcards runs entirely within Canva's Design Editor environment:</p>
+        <div class="steps-grid">
+          <div class="step-item">
+            <span class="step-num">Step 1</span>
+            <h4>Open in Canva</h4>
+            <p>Launch Auto Flashcards from the Canva Apps side panel inside any paginated design project (Presentation, Poster, or Standard Design).</p>
+          </div>
+          <div class="step-item">
+            <span class="step-num">Step 2</span>
+            <h4>Enter Vocabulary</h4>
+            <p>Paste or type your word list separated by lines, commas, or semicolons, then select your desired grid preset (e.g. 2 &times; 3).</p>
+          </div>
+          <div class="step-item">
+            <span class="step-num">Step 3</span>
+            <h4>Generate &amp; Print</h4>
+            <p>Click Generate Flashcards. Cards are automatically formatted, paginated, and inserted onto your canvas with cutting guides.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Transparency Note -->
+      <section class="section-block" style="margin-top: 32px;" aria-labelledby="transparency-heading">
+        <h2 id="transparency-heading">Privacy, Transparency &amp; Security</h2>
+        <p>
+          Auto Flashcards is built with a strict client-side architecture to guarantee complete privacy and reliability:
+        </p>
+        <ul style="margin-bottom: 0;">
+          <li><strong>100% Client-Side Processing:</strong> All text parsing, layout math, and canvas drawing occur directly within your active Canva browser session using the official Canva Apps SDK.</li>
+          <li><strong>No External Server Upload:</strong> Your vocabulary lists, study terms, and design outputs are never transmitted to, collected by, or stored on external servers or third-party databases.</li>
+          <li><strong>Zero Account Overhead:</strong> Operates natively inside your existing Canva workspace without external sign-up, passwords, or tracking cookies.</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <strong>Auto Flashcards</strong>
+          <p>
+            An independent design companion tool for teachers, students, and creators using Canva to build flashcards.
+          </p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-disclaimer">
+        <strong>Disclaimer:</strong> Auto Flashcards is an independent third-party tool designed for use within Canva. Auto Flashcards is not affiliated with, endorsed by, or sponsored by Canva Pty Ltd. "Canva" is a trademark of Canva Pty Ltd.
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Auto Flashcards. All rights reserved.</div>
+        <div>Support: <a href="mailto:zhizhuzhizhu007@gmail.com">zhizhuzhizhu007@gmail.com</a></div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

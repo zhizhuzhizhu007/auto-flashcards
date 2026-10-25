@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support &amp; Contact - Auto Flashcards</title>
+  <meta name="description" content="Get customer support, troubleshooting assistance, or report issues for the Auto Flashcards Canva application.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span>Auto Flashcards</span>
+        <span class="brand-badge">Canva App</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="support.html" class="active">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      
+      <!-- Page Header -->
+      <section class="hero" style="padding-bottom: 24px;">
+        <h1>Customer Support &amp; Help</h1>
+        <p class="lead">
+          Have a question about Auto Flashcards, need troubleshooting assistance, or want to suggest an improvement? We are here to help.
+        </p>
+      </section>
+
+      <!-- Support Grid -->
+      <div class="support-grid">
+        
+        <!-- Primary Contact Card -->
+        <div class="contact-card">
+          <h2>Direct Email Contact</h2>
+          <p>
+            Please email our support desk directly. We respond promptly and review technical issues thoroughly:
+          </p>
+          <div class="contact-email-box">
+            <div style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 6px;">SUPPORT EMAIL</div>
+            <a href="mailto:zhizhuzhizhu007@gmail.com" class="contact-email-link">zhizhuzhizhu007@gmail.com</a>
+          </div>
+          <p style="font-size: 0.92rem;">
+            <strong>Helpful details to include in bug reports:</strong>
+          </p>
+          <ul style="font-size: 0.9rem; margin-bottom: 0;">
+            <li>A brief summary of what you were trying to generate.</li>
+            <li>Your browser name and version (e.g. Chrome 124, Safari 17).</li>
+            <li>The Canva design dimensions (e.g. A4 Document, US Letter, Presentation).</li>
+            <li>The chosen grid preset (e.g. 2 &times; 3, 3 &times; 3, 4 &times; 4).</li>
+            <li>Any visible error alerts or console messages.</li>
+          </ul>
+        </div>
+
+        <!-- Topics Handled -->
+        <div class="contact-card">
+          <h2>What You Can Ask Us</h2>
+          <p>We provide support and guidance regarding:</p>
+          <ul class="card-list" style="margin-top: 12px;">
+            <li><strong>Grid Matrix &amp; Layout:</strong> Assistance with choosing between 2 &times; 3, 3 &times; 3, and 4 &times; 4 layouts and understanding card aspect ratios.</li>
+            <li><strong>Vocabulary Parsing:</strong> Guidance on formatting item lists, handling multi-word compound phrases, and customizing delimiters.</li>
+            <li><strong>Print Crop Guides:</strong> Information on 0.5pt hairline trimming guides, 5mm cutting channels, and margins for paper trimmers.</li>
+            <li><strong>Performance &amp; Safeguards:</strong> Understanding the 120-item guardrail and managing large vocabulary decks across multiple pages.</li>
+            <li><strong>Bug Reports &amp; Feature Requests:</strong> Reporting unexpected canvas behavior or proposing new layout styles.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Frequently Asked Questions -->
+      <section class="section-block" style="margin-top: 40px;" aria-labelledby="faq-heading">
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+        
+        <div style="margin-top: 20px;">
+          <article style="margin-bottom: 24px;">
+            <h3>How does auto-pagination work across multiple pages?</h3>
+            <p>
+              Auto Flashcards calculates how many cards fit onto each page based on your selected preset (for example, 6 cards per page for 2 &times; 3). If your vocabulary list has 18 words, the app automatically populates the first 6 cards on your active page, generates 2 additional pages in your Canva design, and distributes the remaining cards in sequential order.
+            </p>
+          </article>
+
+          <article style="margin-bottom: 24px;">
+            <h3>What delimiters are supported for separating words?</h3>
+            <p>
+              You can separate words using line breaks (Enter), standard English commas (<code>,</code>), Chinese full-width commas (<code>，</code>), semicolons (<code>;</code> or <code>；</code>), or Chinese enumeration marks (<code>、</code>). Multi-word phrases such as "New York City" or "ice cream" are preserved as single items when separated by punctuation or lines.
+            </p>
+          </article>
+
+          <article style="margin-bottom: 24px;">
+            <h3>Can I customize card borders, colors, and fonts after generation?</h3>
+            <p>
+              Yes! All generated cards and text boxes are inserted as standard native Canva elements. You can freely change fonts, sizes, text colors, background colors, and border strokes using Canva's native top toolbar at any time.
+            </p>
+          </article>
+
+          <article style="margin-bottom: 24px;">
+            <h3>Why is there a limit of 120 items per generation?</h3>
+            <p>
+              To protect your browser from high memory consumption and avoid Canva API canvas transaction timeouts, Auto Flashcards enforces a 120-item safeguard. For larger decks (e.g. 300 words), simply generate them in 2&ndash;3 batches.
+            </p>
+          </article>
+
+          <article style="margin-bottom: 24px;">
+            <h3>Do I need a separate user account or paid subscription?</h3>
+            <p>
+              No. Auto Flashcards operates directly inside your Canva editor without external registration, logins, or separate subscriptions.
+            </p>
+          </article>
+
+          <article style="margin-bottom: 0;">
+            <h3>Where can I track updates or review source documentation?</h3>
+            <p style="margin-bottom: 0;">
+              You can track project updates, report issues, and review releases on our public GitHub repository at <a href="https://github.com/zhizhuzhizhu007/auto-flashcards" target="_blank" rel="noopener noreferrer">github.com/zhizhuzhizhu007/auto-flashcards</a>.
+            </p>
+          </article>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <strong>Auto Flashcards</strong>
+          <p>
+            An independent design companion tool for teachers, students, and creators using Canva to build flashcards.
+          </p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-disclaimer">
+        <strong>Disclaimer:</strong> Auto Flashcards is an independent third-party tool designed for use within Canva. Auto Flashcards is not affiliated with, endorsed by, or sponsored by Canva Pty Ltd. "Canva" is a trademark of Canva Pty Ltd.
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Auto Flashcards. All rights reserved.</div>
+        <div>Support: <a href="mailto:zhizhuzhizhu007@gmail.com">zhizhuzhizhu007@gmail.com</a></div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
